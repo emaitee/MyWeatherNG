@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Forte);
+
+body {
+  font-family: 'Open Sans' !important;
+  background-color: #eef4f7 !important;
+}
+
+#logo {
+  font-family: Forte;
+  text-align: center;
+}
+
+#myweatherng {
+  padding: 2rem 0;
+}
+
+td,
+th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.input-group {
+  margin: 20px 0px;
+}
+
+svg {
+  height: 150px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+td:first-of-type,
+td:first-of-type > div {
+  height: 200px;
+  width: 250px;
+}
