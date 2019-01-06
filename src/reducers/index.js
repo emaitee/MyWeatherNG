@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 import WeatherReducer from './reducer_weather';
-import SpinnerReducer from './reducer_spinner'
+import RequestReducer from './reducer_request'
 
 const rootReducer = combineReducers({
   weather: WeatherReducer,
-  spinner: SpinnerReducer
+  requestStatus: RequestReducer
 });
 
 export default rootReducer;

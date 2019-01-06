@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SearchBar from '../containers/search-bar';
 import WeatherList from '../containers/weather-list';
+import Spinner from '../containers/spinner';
 
 export default class App extends Component {
   render() {
@@ -12,6 +13,7 @@ export default class App extends Component {
         </h4>
         <br />
         <SearchBar />
+        <Spinner />
         <WeatherList />
       </div>
     );

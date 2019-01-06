@@ -5,9 +5,9 @@
 An app that allows you to check 5 days weather forecast in any city in Nigeria.
 This was implemented using the following technologies/libraries:
 
-- ReactJS (Front-end)
+- ReactJS (Front-End)
 - Redux for app state management
-- Redux Promise (A middleware for making asynchronous requests using redux)
+- Redux Thunk (middleware) for making asynchronous requests using redux
 - Sparkline (A library for rendering charts)
 - Lodash utility library
 - Google Map API
