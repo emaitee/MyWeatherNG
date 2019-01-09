@@ -3,7 +3,9 @@
 ### About this app
 
 An app that allows you to check 5 days weather forecast in any city in Nigeria.
+
 Check it out here [MyWeatherNG]('https://myweatherng.herokuapp.com').
+
 This was implemented using the following technologies/libraries:
 
 - ReactJS (Front-End)
@@ -13,7 +15,7 @@ This was implemented using the following technologies/libraries:
 - Lodash utility library
 - Google Map API
 
-This project consumes an api from [openweathermap]('openweathermap.org/forecast5').
+This project consumes an api from [openweathermap]('https://openweathermap.org/forecast5').
 
 It was built on top of an Udemy Course.
 
